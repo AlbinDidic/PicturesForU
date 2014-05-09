@@ -1,0 +1,37 @@
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.male  a div{
+    margin-right: 5px;
+    padding-bottom: 3px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('../img/male.png') no-repeat left center;
+}
+
+.male:hover  a div{
+    background: url('../img/maled.png') no-repeat left center;
+}
+
+.female a div {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('../img/female.png') no-repeat left center;
+}
+
+.female:hover a div {
+    background: url('../img/femaled.png') no-repeat left center;
+}
+
+.container_notlike {
+    display:none;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
